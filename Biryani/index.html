@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap CDN link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!---Css Style Link-->
+    <link type="stylesheet" href="./css/style.css" />
+    <!--Font Awesome Icon Link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Document</title>
+    <style>
+        /* Additional CSS styles */
+      
+          h4{
+            font-family: cursive;
+          }
+          .col {
+            box-shadow: 0 0px 8px rgba(0, 0, 0, 0.1); 
+            padding: 2px; 
+          }
+          h1{
+            font-family: cursive;
+          }
+          .product-title {
+            font-weight: bold;
+            color: maroon;
+          }
+          .product-price {
+            color: green;
+            font-size: 1.2em;
+          }
+      </style>
+</head>
+<body>
+    <!---Header start-->
+   <div class="container- fuild ">
+    
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">New Chicken</a>
+         
+          
+            <nav class="navbar navbar-light  " >
+                <div class="container-fluid">
+                  <form class="d-flex" >
+                    <input class="form-control me-3" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+                </div>
+              </nav>
+           
+          </div>
+        </div>
+      </nav>
+   </div>
+    <!---Header End-->
+
+   <!--Slider Start-->
+   <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./images/banner1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./images/banner2.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./images/banner3.jpg" class="d-block w-100" alt="...">
+      </div>
+      
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+   <!--Slider End-->
+   <!--Products Start-->
+   <div class="container mt-5">
+    <h2 style="color: maroon;" class="">Products</h2>
+    <div class="row">
+      <div class="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
+        <a href="chicken.html">
+          <img src="./images/chicken.svg" class="product-img" alt="Chicken" width="90px" height="90px">
+   
+        </a>
+        <h5 style="color: brown;">CHICKEN</h5>
+        
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
+        <a href="mutton.html">
+        <img src="./images/matton.svg" class="product-img" alt="Mutton" width="90px" height="90px">
+        </a>
+        <h5 style="color: brown;">MUTTON</h5>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
+        <a href="fish.html">
+        <img src="./images/fish.svg" class="product-img" alt="Fish Food" width="90px" height="90px">
+        </a>
+        <h5 style="color: brown;">FISH FOOD</h5>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
+        <a href="egges.html">
+        <img src="./images/egges.svg" class="product-img" alt="Eggs" width="90px" height="90px">
+        </a>
+        <h5 style="color: brown;">EGGS</h5>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
+        <a href="ready.html">
+        <img src="./images/ready.png" class="product-img" alt="Ready Cook" width="90px" height="90px">
+        </a>
+        <h5 style="color: brown;">READY COOK</h5>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
+        <a href="cold.html">
+        <img src="./images/cold.svg" class="product-img" alt="Cold" width="90px" height="90px">
+        </a>
+        <h5 style="color: brown;">COLD</h5>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
+        <a href="head.html">
+        <img src="./images/heat and eat.svg" class="product-img" alt="Heat and Eat" width="90px" height="90px">
+        </a>
+        <h5 style="color: brown;">HEAT  EAT</h5>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
+        <a href="">
+        <img src="./images/READY TO COOK BIRYANI.svg" class="product-img" alt="Ready Biryani" width="90px" height="90px">
+        </a>
+        <h5 style="color: brown;">READY BIRYANI</h5>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 col-4 text-center">
+        <a href="link_to_your_destination">
+        <img src="./images/READY TO COOK BIRYANI.svg" class="product-img" alt="Ready Biryani" width="90px" height="90px">
+        </a>
+        <h5 style="color: brown;">READY BIRYANI</h5>
+      </div>
+   </div>
+  </div>
+   <!---Products End-->
+ 
+   <!--Send Start-->
+   <div class="container mt-3">
+    <h2 class=" product-title">Bestsellers</h2>
+    <div class="row mt-3">
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+        <div class="shadow-sm p-3">
+          <a href="./chicken.html">
+            <img src="./images/chicken curry.jpg" class="img-fluid" alt="CHICKEN CURRY CUT" />
+          </a>
+          <h5 class="mt-3">CHICKEN CURRY CUT</h5>
+          <h5>WITH OUT SKIN</h5>
+          <h4 class="product-price">Price - 150</h4>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+        <div class="shadow-sm p-3">
+          <a href="./fish.html">
+            <img src="./images/fish1.jpg" class="img-fluid" alt="FISH THIGHS" />
+          </a>
+          <h5 class="mt-3">FISH THIGHS</h5>
+          <h4 class="product-price">FISH</h4>
+          <h4 class="product-price">Price - 249</h4>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+        <div class="shadow-sm p-3">
+          <a href="./ready.html">
+            <img src="./images/ready1.jpg" class="img-fluid" alt="CHICKEN DRUMSTICK" />
+          </a>
+          <h5 class="mt-3">CHICKEN DRUMSTICK</h5>
+          <h4 class="product-price">CHICKEN</h4>
+          <h4 class="product-price">Price - 229</h4>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+        <div class="shadow-sm p-3">
+          <a href="./cold.html">
+            <img src="./images/cold1.jpg" class="img-fluid" alt="COLD BONELESS" />
+          </a>
+          <h5 class="mt-3">COLD BONELESS</h5>
+          <h4 class="product-price">CHICKEN</h4>
+          <h4 class="product-price">Price - 249</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+   <!--Send End-->
+   <!--Mutton Start-->
+   <div class="container mt-3">
+    <h2 class=" product-title">Bestsellers</h2>
+    <div class="row">
+      <div class="col-md-3 col-sm-6 mb-4">
+        <div class="shadow-sm p-3">
+          <a href="./mutton.html">
+            <img src="./images/minaces.jpg" class="img-fluid" alt="MUTTON CUT" />
+          </a>
+          <h5 class="mt-3">MUTTON CUT</h5>
+          <h4 class="product-price">Price - 150</h4>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6 mb-4">
+        <div class="shadow-sm p-3">
+          <a href="./egges.html">
+            <img src="./images/egge1.jpg" class="img-fluid" alt="EGG THIGHS" />
+          </a>
+          <h5 class="mt-3">EGG THIGHS</h5>
+          <h4 class="product-price">Price - 249</h4>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6 mb-4">
+        <div class="shadow-sm p-3">
+          <a href="./head.html">
+            <img src="./images/heat1.jpg" class="img-fluid" alt="HEAD DRUMSTICK" />
+          </a>
+          <h5 class="mt-3">HEAD DRUMSTICK</h5>
+          <h4 class="product-price">Price - 229</h4>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6 mb-4">
+        <div class="shadow-sm p-3">
+          <a href="./biryani.html">
+            <img src="./images/heat2.jpg" class="img-fluid" alt="CHICKEN MOMOS" style="border-radius: 20px;" />
+          </a>
+          <h5 class="mt-3">CHICKEN MOMOS</h5>
+          <h4 class="product-price">Price - 249</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+
+   <!--Mutton End-->
+    <!--main start-->
+    <div class="container">
+      <img src="./images/normal.jpg" class="img-fluid" alt="Responsive Image">
+    </div>
+     <!--Main End-->
+   
+
+   <!--Next Start-->
+   <div class="container mt-5">
+    <img src="./images/right.jpg" class="img-fluid" alt="Responsive Image">
+  </div>
+   <!--Next end-->
+  
+   <!--footer Start-->
+   <footer class="bg-dark text-white pt-4 mt-3">
+    <div class="container">
+      <div class="row">
+        <!-- Company Info -->
+        <div class="col-md-4">
+          <h5>Company Name</h5>
+          <p>
+            123 Street Name<br>
+            City, State, 12345<br>
+            (123) 456-7890<br>
+            email@example.com
+          </p>
+        </div>
+        <!-- Useful Links -->
+        <div class="col-md-4">
+          <h5>Useful Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-white" style="text-decoration: none;">Home</a></li>
+            <li><a href="#" class="text-white" style="text-decoration: none;">About Us</a></li>
+            <li><a href="#" class="text-white" style="text-decoration: none;">Services</a></li>
+            <li><a href="#" class="text-white" style="text-decoration: none;">Contact</a></li>
+          </ul>
+        </div>
+        <!-- Social Media -->
+        <div class="col-md-4">
+          <h5>Follow Us</h5>
+          <a href="#" class="text-white mr-3"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="text-white mr-3"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="text-white mr-3"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="text-white mr-3"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-md-12 text-center">
+          <p>&copy; 2024 Company Name. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+   <!---footer end-->
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<script src="javascript.js"></script>
+</body>
+</html>
